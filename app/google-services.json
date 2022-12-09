@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "211734587554",
+    "project_id": "chattick-e60cd",
+    "storage_bucket": "chattick-e60cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211734587554:android:61a7ef30878026d7f70ffb",
+        "android_client_info": {
+          "package_name": "com.example.chattick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211734587554-pc2n3i7cl7rj929af6s7otbksfqbp45s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZza39H2lD9Hv-pWHGggniAtWM3kE2kZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211734587554-pc2n3i7cl7rj929af6s7otbksfqbp45s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/my_layout"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/oppo_profile_image"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/oppo_message"
+                android:background="@drawable/opo_msg_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:text="opponent message"
+                android:layout_toRightOf="@id/oppo_profile_image"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/oppo_txt_seen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_below="@id/oppo_message"
+                android:layout_alignEnd="@+id/oppo_message"
+                android:text="seen" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/oppo_layout"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/my_profile_image"
+                android:src="@mipmap/ic_launcher"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/my_message"
+                android:background="@drawable/my_msg_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="my message"
+                android:layout_toRightOf="@id/my_profile_image"
+                android:padding="8dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/my_txt_seen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_message"
+                android:layout_alignEnd="@+id/my_message"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
